@@ -1,0 +1,194 @@
+{
+	"account": {
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"pinCode": null,
+		"country": { "id": "UA", "name": "Ukraine" },
+		"phone": "+380731618003"
+	},
+	"isAuth": false,
+	"currencies": [
+		{
+			"id": "uah",
+			"name": "Debit",
+			"currencyName": "Ukrainian Hryvnia",
+			"symbol": "₴",
+			"cardBalance": 153629,
+			"cardNumber": "4441122411797791",
+			"cardCVV": "549",
+			"cardExpDate": "09/35"
+		},
+		{
+			"id": "usd",
+			"name": "Savings",
+			"currencyName": "US Dollar",
+			"symbol": "$",
+			"cardBalance": 16731.8,
+			"cardNumber": "4441122411791091",
+			"cardCVV": "864",
+			"cardExpDate": "02/32"
+		}
+	],
+	"transactions": [
+		{
+			"uid": "txn_001",
+			"name": "Grab",
+			"date": "2026-11-01",
+			"amount": 600.75,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_002",
+			"name": "Major Cineplex",
+			"date": "2026-11-02",
+			"amount": 1020.0,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_003",
+			"name": "Bangchak",
+			"date": "2026-11-03",
+			"amount": 320.5,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_004",
+			"name": "Rimping",
+			"date": "2026-11-04",
+			"amount": 837.25,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_005",
+			"name": "Makro",
+			"date": "2026-11-05",
+			"amount": 5340.6,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_006",
+			"name": "Lazada",
+			"date": "2026-11-06",
+			"amount": 565.75,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_007",
+			"name": "Grab",
+			"date": "2026-11-07",
+			"amount": 420.4,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_008",
+			"name": "Major Cineplex",
+			"date": "2026-11-08",
+			"amount": 792.5,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_009",
+			"name": "Bangchak",
+			"date": "2026-11-09",
+			"amount": 560.25,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_010",
+			"name": "Rimping",
+			"date": "2026-11-10",
+			"amount": 821.0,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_011",
+			"name": "Makro",
+			"date": "2026-11-11",
+			"amount": 3023.75,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_012",
+			"name": "Lazada",
+			"date": "2026-11-12",
+			"amount": 865.5,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_013",
+			"name": "Grab",
+			"date": "2026-11-13",
+			"amount": 430.0,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_014",
+			"name": "Major Cineplex",
+			"date": "2026-11-14",
+			"amount": 1200.25,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_015",
+			"name": "Bangchak",
+			"date": "2026-11-15",
+			"amount": 850.5,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_016",
+			"name": "Rimping",
+			"date": "2026-11-16",
+			"amount": 655.0,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_017",
+			"name": "Makro",
+			"date": "2026-11-17",
+			"amount": 980.75,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_018",
+			"name": "Lazada",
+			"date": "2026-11-18",
+			"amount": 643.5,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_019",
+			"name": "Grab",
+			"date": "2026-11-19",
+			"amount": 432.0,
+			"currency": "uah",
+			"type": "credit"
+		},
+		{
+			"uid": "txn_020",
+			"name": "Major Cineplex",
+			"date": "2026-11-20",
+			"amount": 983.25,
+			"currency": "uah",
+			"type": "credit"
+		}
+	]
+}
