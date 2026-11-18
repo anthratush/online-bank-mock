@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import countries from '#lib/mocks/countries.json';
+	import countries from '../../../../static/mocks/countries.json';
 	import { resolve } from '$app/paths';
 
 	// Define types for account data

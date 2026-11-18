@@ -70,7 +70,7 @@ export function getUserData(): UserData | null {
  */
 export async function initializeNewUser(): Promise<void> {
 	if (!browser) return;
-	const response = await fetch('/src/lib/mocks/new_user_setup.json');
+	const response = await fetch('/mocks/new_user_setup.json');
 	const mockData: UserData = await response.json();
 	mockData.isAuth = false;
 	saveUserData(mockData);

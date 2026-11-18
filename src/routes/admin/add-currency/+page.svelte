@@ -13,11 +13,11 @@
 
 	// Fetch available currencies and mock transactions from mock data
 	onMount(async () => {
-		const response = await fetch('/src/lib/mocks/currencies.json');
+		const response = await fetch('/mocks/currencies.json');
 		const currencies = await response.json<Currency[]>();
 		availableCurrencies = currencies;
 
-		const mockResponse = await fetch('/src/lib/mocks/new_user_setup.json');
+		const mockResponse = await fetch('/mocks/new_user_setup.json');
 		const mockData = await mockResponse.json<{ transactions: Transaction[] }>();
 		mockTransactions = mockData.transactions;
 	});
