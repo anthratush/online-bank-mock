@@ -8,8 +8,8 @@
 	const account = $derived.by(() => userData?.account);
 </script>
 
-<div class="min-h-screenp-4">
-	<div class="rounded-lgp-6 mx-auto max-w-md">
+<div class="min-h-screen p-4">
+	<div class="mx-auto max-w-md rounded-lg p-6">
 		<h1 class="mb-6 text-center text-2xl font-bold text-white">Account Information</h1>
 
 		{#if account}

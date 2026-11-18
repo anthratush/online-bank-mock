@@ -1,10 +1,9 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '#lib/assets/favicon.svg';
 	import type { LayoutProps } from './$types';
 	import { goto } from '$app/navigation';
 	import { getUserData } from '#lib/utils/storage.ts';
-	import { resolve } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
 
 	const { children }: LayoutProps = $props();
 	let isAdminPanelOpen = $state(false);
@@ -70,7 +69,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={asset('icons/icon-192.png')} />
 </svelte:head>
 
 <div class="flex min-h-screen flex-col bg-linear-to-t from-gray-950 from-30% to-indigo-500">
