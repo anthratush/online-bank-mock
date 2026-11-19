@@ -18,8 +18,8 @@
 ### Decisions (user-confirmed)
 
 - **Approach: minimal.** Keep the existing hand-rolled service worker; add only `static/manifest.webmanifest` + icons + `app.html` tags. Do NOT migrate to `@vite-pwa/sveltekit` (workbox/`injectManifest` adds build complexity and double-registration risk with `adapter-cloudflare` for no gain — the SW already exists and precaches all of `static/`, which will include the manifest and icons automatically).
-- **Icons:** generate branded PNGs into `static/icons/` — Ukrainian blue/yellow rounded square with a "UB" monogram (matching the "UkrBank 🇺🇦" header): `icon-192.png`, `icon-512.png`, `icon-maskable-512.png`, `apple-touch-icon.png` (180×180).
-- **Manifest values:** `name`/`short_name`: "UkrBank", `start_url`: "/", `scope`: "/", `display`: "standalone", `theme_color`: "#6366f1" (indigo-500, matches the layout gradient), `background_color`: "#030712" (gray-950 splash, matches dark gradient), icons: 192 + 512 (`purpose: "any"`) and 512 maskable (`purpose: "maskable"`).
+- **Icons:** generate branded PNGs into `static/icons/` — Ukrainian blue/yellow rounded square with a "UB" monogram (matching the "U-Bank 🇺🇦" header): `icon-192.png`, `icon-512.png`, `icon-maskable-512.png`, `apple-touch-icon.png` (180×180).
+- **Manifest values:** `name`/`short_name`: "U-Bank", `start_url`: "/", `scope`: "/", `display`: "standalone", `theme_color`: "#6366f1" (indigo-500, matches the layout gradient), `background_color`: "#030712" (gray-950 splash, matches dark gradient), icons: 192 + 512 (`purpose: "any"`) and 512 maskable (`purpose: "maskable"`).
 - **iOS:** include `apple-mobile-web-app-capable`, `apple-mobile-web-app-status-bar-style`, and an `apple-touch-icon` link in `src/app.html` (Safari ignores manifest icons for home-screen installs).
 
 ### Files to create / change

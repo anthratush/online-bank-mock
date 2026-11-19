@@ -1,7 +1,7 @@
 {
-	"name": "UkrBank",
-	"short_name": "UkrBank",
-	"description": "UkrBank — online banking",
+	"name": "U-Bank",
+	"short_name": "U-Bank",
+	"description": "U-Bank — online banking",
 	"start_url": "/",
 	"scope": "/",
 	"display": "standalone",

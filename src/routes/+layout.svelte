@@ -75,7 +75,7 @@
 <div class="flex min-h-screen flex-col bg-linear-to-t from-gray-950 from-30% to-indigo-500">
 	<header class="p-4 text-white">
 		<div class="container mx-auto flex items-center justify-between">
-			<a href={resolve('/')}><h1 class="text-xl font-bold">UkrBank 🇺🇦</h1></a>
+			<a href={resolve('/')}><h1 class="text-xl font-bold">U-Bank 🇺🇦</h1></a>
 			<div class="relative">
 				<button
 					onclick={() => {
